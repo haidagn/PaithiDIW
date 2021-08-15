@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1628372318550-1e7c5273045f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container {
+  padding: 0px;
+}
+
+.header .container .header-nav {
+  padding: 0.5rem 0rem !important;
+}
+
+.header .container .header-nav__logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.header .container .header-nav__link-items {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 21px !important;
+  padding-right: 21px !important;
+}
+
+.header .container .header-nav__link .active {
+  color: #6462C2 !important;
+}
+
+.header .container .header-banner {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30%;
+}
+
+.header .container .header-banner__title {
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.features-post img {
+  width: 100%;
+}
+
+.features-post .space {
+  height: 45px;
+}
+
+.features-post__title {
+  font-size: 32px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.features-post__title p::after {
+  content: ' Features';
+  font-weight: 600;
+}
+
+.features-post__textbox h4 {
+  text-transform: capitalize;
+}
+
+.features-post__textbox hr {
+  width: 80px;
+  border-top: 2px solid #6462C2;
+}
+
+.features-post__textbox p {
+  color: #6f6f6f;
+  font-weight: 400;
+}
+
+.features-post__textbox-btn {
+  display: flex;
+  align-items: center;
+}
+
+.features-post__textbox-btn a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.features-post__textbox-btn ion-icon {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.features-post__textbox-btn:hover ion-icon,
+.features-post__textbox-btn:hover a {
+  color: #6462c2;
+  text-decoration: none;
+}
+
+.getstart {
+  margin-top: 80px;
+  height: 170px;
+  background-color: #615FE6;
+}
+
+.getstart p {
+  font-family: 'Roboto';
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.getstart a {
+  width: 140px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.services-post__title {
+  font-size: 32px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.services-post__title p::after {
+  content: ' Services';
+  font-weight: 600;
+}
+
+.services-post__textbox {
+  min-width: 315px !important;
+  max-width: 360px !important;
+  margin: 10px !important;
+}
+
+.services-post__textbox .card-icon ion-icon {
+  font-size: 42px;
+  color: #7977f7;
+  --ionicon-stroke-width: 20px;
+}
+
+.services-post__textbox .card-textbox__title {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.services-post__textbox .card-textbox__content {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+.contact-form__title {
+  font-size: 32px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.contact-form__title p::after {
+  content: ' Services';
+  font-weight: 600;
+}
+
+.contact-form label {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.contact-form input {
+  height: 45px;
+}
+
+.contact-form textarea {
+  min-height: 100px !important;
+}
+
+.contact-form button {
+  font-family: 'Roboto';
+  width: 160px;
+  height: 45px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #615FE6;
+}
+
+.contact-form :is(label, input, textarea)::placeholder {
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #615FE6;
+  height: 60px;
+}
+
+.footer p {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
